@@ -379,16 +379,16 @@ export default function ResultsPage() {
             
             <div className="max-w-3xl mx-auto text-gray-600 space-y-4 mb-8">
               <p>In today's competitive landscape, static SOPs aren't enough—you need engaging training experiences that employees actually complete and clients can easily follow. Most companies struggle with boring documentation, poor training completion rates, and lack of measurable learning outcomes.</p>
-              <p>Join our free 90-minute LMS Implementation Workshop where we'll show you how to transform your SOPs into interactive training modules that drive real business results. We can have your LMS fully set up and running within just 3 hours.</p>
-              <p>You'll learn how to convert your existing processes into engaging learning content, set up automated training workflows, and measure the impact on employee productivity and client satisfaction.</p>
+              <p>Our expert team can transform your existing SOPs into an interactive LMS platform, complete with employee training modules, client education portals, and automated workflows. We can have your LMS fully set up and running within just 3 hours.</p>
+              <p>This comprehensive solution includes interactive quizzes, progress tracking, certification programs, and detailed analytics dashboards. Your employees will have access to role-specific learning paths, while your clients can self-serve through branded training content that reduces support tickets and improves satisfaction.</p>
             </div>
 
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 rounded-lg font-bold text-lg transition-colors shadow-lg hover:shadow-xl cursor-pointer"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-12 py-4 rounded-lg font-bold text-lg transition-colors shadow-lg hover:shadow-xl cursor-pointer"
             >
-              REGISTER NOW
+              CONTACT US
             </motion.button>
           </motion.div>
         </div>
