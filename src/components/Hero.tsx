@@ -52,8 +52,8 @@ export default function Hero() {
           className="absolute top-[5%] left-[2%] hidden lg:block w-[180px] bg-white rounded-3xl shadow-sm p-3.5 hover:shadow-md transition-shadow z-10"
         >
           <div className="mb-2">
-            <p className="text-3xl font-bold text-gray-900">40%</p>
-            <p className="text-xs text-gray-500">Faster Onboarding</p>
+            <p className="text-3xl font-bold text-gray-900 text-center">40%</p>
+            <p className="text-xs text-gray-500 text-center">Faster Onboarding</p>
           </div>
         </motion.div>
 
@@ -66,7 +66,7 @@ export default function Hero() {
         >
           <div className="text-center">
             <p className="text-3xl font-bold text-gray-900">3x</p>
-            <p className="text-xs text-gray-500">Productivity<br/>Increase</p>
+            <p className="text-xs text-gray-500 text-center">Productivity<br/>Increase</p>
           </div>
         </motion.div>
 
@@ -97,7 +97,7 @@ export default function Hero() {
           <p className="text-sm font-medium text-blue-600 mb-4 uppercase tracking-wide">
             NO.1 LMS SOLUTION FOR SOP MANAGEMENT & TRAINING
           </p>
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
+          <h1 className="text-2xl md:text-5xl font-bold leading-tight mb-6 max-w-[800px] mx-auto ">
             <span className="text-gray-900">Transform Your SOPs</span>
             <br />
             <span className="text-gray-900">Into Powerful </span>
