@@ -39,12 +39,12 @@ export default function Hero() {
   const COLORS = ['#A5B4FC', '#FCA5A5'];
 
   return (
-    <section className="relative pt-32 pb-20 px-6 overflow-hidden bg-gradient-to-b from-blue-50/50 via-white to-blue-50">
+    <section className="relative pt-32 px-6 overflow-hidden bg-gradient-to-b from-blue-50/50 via-white to-blue-50">
       <div className="absolute top-20 left-10 w-96 h-96 bg-blue-200/30 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 right-10 w-96 h-96 bg-blue-100/40 rounded-full blur-3xl"></div>
 
       <div className="max-w-7xl mx-auto relative min-h-[800px]">
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
@@ -68,7 +68,7 @@ export default function Hero() {
             <p className="text-3xl font-bold text-gray-900">3x</p>
             <p className="text-xs text-gray-500 text-center">Productivity<br/>Increase</p>
           </div>
-        </motion.div>
+        </motion.div> */}
 
        
 {/* 
@@ -92,7 +92,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-center mb-6 relative z-20"
+          className="text-center mb-6 relative z-20 mt-8 lg:mt-16 "
         >
           <p className="text-sm font-medium text-blue-600 mb-4 uppercase tracking-wide">
             NO.1 LMS SOLUTION FOR SOP MANAGEMENT & TRAINING
@@ -142,7 +142,7 @@ export default function Hero() {
         </motion.p>
 
 
-        <div className="lg:hidden relative max-w-6xl mx-auto h-[400px] md:h-[300px] mb-16">
+        <div className="lg:hidden relative max-w-6xl mx-auto h-[400px] md:h-[300px]">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}

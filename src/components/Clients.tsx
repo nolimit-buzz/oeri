@@ -33,7 +33,7 @@ export default function Clients() {
   ];
 
   return (
-    <section className="pt-8 pb-16 px-6 bg-blue-50">
+    <section className="px-6 bg-blue-50">
       <div className="max-w-6xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
